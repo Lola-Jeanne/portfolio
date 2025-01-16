@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+import { IoHome } from "react-icons/io5";
+import { IoRocketSharp } from "react-icons/io5";
+import { FaGears } from "react-icons/fa6";
 import './navbar.styles.css'
 
 export default function Navbar(){
@@ -6,9 +8,15 @@ export default function Navbar(){
         <>
             <header>
                 <p>Carla Lopez</p>
-                    <a href='#home' className='link'>Home</a>
-                    <a href='#skillsSection' className='link'>Skills</a>
-                    <Link className='link'>Projects</Link>
+                <div className='link'>
+                    <IoHome /><a href='#home'>Home</a>
+                </div>
+                <div className='link'>
+                    <FaGears /><a href='#skillsSection'>Skills</a>
+                </div>
+                <div className='link'>
+                    <IoRocketSharp /><a href='#projectSection'>Projects</a>
+                </div>
             </header>
         </>
     )

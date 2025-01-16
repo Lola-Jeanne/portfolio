@@ -14,9 +14,23 @@ header {
     text-decoration: none;
     color: black;
     font-weight: 600;
+    display: flex;
+    gap: 7px;
+    align-items: center;
 }
 
 .link:hover {
+    text-decoration: underline;
+    color: #BBB193;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+a:hover {
     text-decoration: underline;
     color: #BBB193;
 }
