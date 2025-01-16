@@ -1,0 +1,13 @@
+.curved-container {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .curved-svg {
+    position: absolute;
+    top: 0;
+    width: 150%;
+    height: auto;
+    transform: scaleY(-1);
+  }

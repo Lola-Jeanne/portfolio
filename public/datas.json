@@ -1,0 +1,38 @@
+[
+	{
+		"id": "1",
+		"title": "Kasa",
+		"pictures": [
+			"https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Kasa1.png",
+			"https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Kasa2.png",
+            "https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Kasa3.png",
+            "https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Kasa4.png"
+		],
+		"description": "Application web de location immobilière avec React",
+		"link": "https://github.com/Lola-Jeanne/Kasa/tree/dev"
+	},
+    {
+		"id": "2",
+		"title": "OhMyFood",
+		"pictures": [
+			"https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Ohmyfood1.png",
+			"https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Ohmyfood2.png",
+            "https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Ohmyfood3.png",
+            "https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/Ohmyfood4.png"
+		],
+		"description": "Site qui répertorie les menus de restaurants gastronomiques avec animations CSS",
+		"link": "https://github.com/Lola-Jeanne/Projet4-Ohmyfood"
+	},
+    {
+		"id": "3",
+		"title": "Nina Carducci",
+		"pictures": [
+			"https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/NinaCarducci1.png",
+			"https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/NinaCarducci2.png",
+            "https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/NinaCarducci3.png",
+            "https://github.com/Lola-Jeanne/portfolio/blob/dev/public/assets/NinaCarducci4.png"
+		],
+		"description": "Optimisation du référencement d'un site de photographe",
+		"link": "https://github.com/Lola-Jeanne/Photographe_NinaCarducci"
+	}
+]
