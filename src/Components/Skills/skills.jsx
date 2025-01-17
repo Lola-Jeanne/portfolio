@@ -39,7 +39,7 @@ const skillsData = [
     
     return (
       <>
-      <h3 id='skillsSection'>Skills Wall</h3>
+      <h2 id='skillsSection'>Skills Wall</h2>
         <div className="skills-container">
           <div className="skills-grid">
             {skillsData.map((skill) => (

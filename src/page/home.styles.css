@@ -12,13 +12,28 @@
   transform: scaleY(-1);
 }
 
-.curved-container-footer {
-  position: absolute;
-  bottom: auto;
-  width: 150%;
-  height: auto;
-  transform: scaleY(-1);
-  padding-top: 350px;
+.introduction {
+  display: flex;
+  position: relative;
+  bottom: 130px;
+  align-items: center;
+
+  @media (max-width: 500px){
+    flex-direction: column;
+  }
+}
+
+.profilePicture {
+  width: 30%;
+  height: 50%;
+}
+
+.introduction-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  
 }
 
 .carousel-area {
@@ -26,7 +41,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 20px;
+  margin: 40px;
   
 }
 
@@ -51,10 +66,15 @@ svg {
   font-size: 20px;
 }
 
+.project-area {
+  margin-top: 100px;
+}
+
 .link-projet {
   display: flex;
   gap: 5px;
   align-items: center;
+  margin-top: 20px;
 }
 
 .link-projet:hover {
@@ -63,5 +83,25 @@ svg {
 
 .title-project {
   display: flex;
-  gap: 25px;
+  gap: 20px;
+  align-items: center;
+
+  @media (max-width: 500px){
+    flex-direction: column;
+  }
+}
+
+.profile-title {
+  position: relative;
+  bottom: 180px;
+}
+
+.contact-email {
+  margin-bottom: 20px;
+}
+
+.contact-linkedin {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
