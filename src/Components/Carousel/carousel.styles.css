@@ -1,0 +1,54 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.slide-hidden {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+    
+.arrow {
+    position: absolute;
+    color: #98939A;
+    cursor: pointer;
+    width: 46.68px;
+    height: 79.2px;
+
+    @media (max-width: 500px){
+        width: 15px;
+    }
+}
+
+.arrow-left {
+    left: 10px;
+}
+    
+.arrow-right {
+    right: 10px;
+}
+
+.img-count{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #98939A;
+    padding: 0.5rem;
+    font-weight: 500;
+}
