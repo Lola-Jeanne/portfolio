@@ -37,11 +37,90 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: black; 
     font-size: larger;
 }
 
 a:hover {
     text-decoration: underline;
     color: #BBB193;
+}
+
+/* Dark theme */
+body.dark-theme a {
+    color: #FFFFFF; 
+}
+
+body.dark-theme .link {
+    color: #FFFFFF;
+}
+
+body.dark-theme a:hover {
+    color: #BBB193;
+}
+
+body.dark-theme .link:hover {
+    color: #BBB193;
+}
+
+/* Light theme */
+body.light-theme a {
+    color: black;
+}
+
+body.light-theme a:hover {
+    color: #BBB193;
+}
+
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(212, 216, 252);
+    transition: 0.4s;
+    border-radius: 25px;
+}
+
+.toggle-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 17px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+
+/* Si c'est acitvé */
+.toggle-switch input:checked + .slider {
+    background-color: rgb(98, 123, 255);
+}
+
+.toggle-switch input:checked + .slider:before {
+    transform: translateX(25px);
 }

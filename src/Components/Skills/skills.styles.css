@@ -1,16 +1,16 @@
 .skills-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
 
-    @media (max-width: 500px){
-      display: block;
-    }
+  @media (max-width: 500px){
+    display: block;
+  }
 }
   
 .skills-grid {
@@ -70,4 +70,21 @@ button:hover {
 
 h2 {
   margin: 20px;
+}
+
+/* Theme */
+body, .light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Modales dark theme */
+.dark-theme .modal {
+  background-color: #333333;
+  color: #ffffff;
 }
