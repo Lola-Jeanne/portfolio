@@ -33,11 +33,11 @@ function Home(){
             <div className="introduction">
                 <img src={imgProfile} alt="Profile" className="profilePicture"></img>
                 <div className="introduction-txt">
-                    <p>👩🏻‍💻 Mon moteur? Combiner créativité et expertise technique pour concevoir des solutions web modernes et performants</p>
+                    <p>👩🏻‍💻 Mon moteur? Combiner créativité et expertise technique pour concevoir des solutions web modernes et performantes</p>
                     <p>✨ Avec une formation chez Openclassrooms axée sur des technologies comme le HTML, CSS/SASS, JavaScript, React et une sensibilité au SEO</p>
                     <p>✨ Mon parcours m'a permis de travailler sur des projets variés, mêlant développement front-end avec React et des outils de Business Intelligence comme Qlik Sense</p>
                     <p>💫 J'aime apprendre pour affiner mes compétences sur des projets où je peux mettre à profit mon esprit créatif et mon goût pour la résolution de problèmes</p>
-                    <a href="mailto:carlalolajeanne@gmail.com" className="contact-email">📝 Contactez-moir par mail</a>
+                    <a href="mailto:carlalolajeanne@gmail.com" className="contact-email">📝 Contactez-moi par mail</a>
                     <a href="https://www.linkedin.com/in/carla-lopez-393784257" target="_blank" rel="noopener noreferrer" className="contact-linkedin"><FaLinkedin /> Profil LinkedIn</a>
                 </div>
             </div>
